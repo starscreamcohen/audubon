@@ -1,0 +1,16 @@
+		.thumbnail {
+			padding: 0;
+			overflow:hidden;
+		}
+		.thumbnail:hover {
+				-moz-box-shadow: 0 0 50px #ccc; 
+				-webkit-box-shadow: 0 0 50px #ccc; 
+				box-shadow: 0 0 50px #ccc;
+			}
+			.thumbnail>img {
+				width: 100%;
+				height:inherit;
+			}
+			.thumbnail>img:hover {
+				opacity: .9;
+			}
