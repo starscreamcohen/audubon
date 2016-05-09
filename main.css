@@ -24,11 +24,13 @@ body {
 			
 				h1, h2, .nav-link {
 					display:inline;
+					text-decoration: none;
 					color: #67585e;
 					font-size: 1.6em;
 				}
 				h1 {
 					font-size: 2.5em;
+					color:#F0B928;
 				} 
 				
 			#nav-menu-right {
