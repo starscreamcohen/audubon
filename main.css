@@ -92,8 +92,19 @@ body {
 					border-radius:1px;
 					background:rgba(39,33,35,0.9)
 				}
-					.overlay>h2, .overlay>p, .overlay>button {
+					.overlay>h2, .overlay>p, .overlay>a {
 						margin: 7px 0 0 10px;
+					}
+					.overlay>a {
+						position: absolute;
+				    border: 1px solid #fff;
+				    border-radius:1px;
+				    padding: 5px 10px;
+				    color: #fff;
+    				text-decoration: none;
+					}
+					.overlay>a:hover {
+						background: rgba(0,0,0,0.4);
 					}
 	footer {
 		border-top: 5px solid #d0d0d0;
