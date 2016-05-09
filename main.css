@@ -94,8 +94,18 @@ body {
 			color: #fff;
 		}			
 @media (max-width: 923px) {
-				h1 {
-					font-size: 2.0em;
-				} 
+					h1 {
+						font-size: 2.0em;
+					} 
+				#nav-menu-right {
+					bottom:-9px;
+				}
 
 }
+
+@media  (max-width: 767px) {
+				#nav-menu-right {
+					bottom:-4px;
+				}
+}
+	
