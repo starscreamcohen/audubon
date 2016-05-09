@@ -30,9 +30,7 @@ body {
 				h1 {
 					font-size: 2.5em;
 				} 
-				h2 {
-					margin-left: 1%;
-				}
+				
 			#nav-menu-right {
 				position:relative;
 				bottom: -13px;
@@ -77,11 +75,8 @@ body {
 					width: 100%;
 					height:inherit;
 				}
-				/*.thumbnail>img:hover {
-					opacity: .9;
-				}*/
 				.overlay {
-					display:none;
+					display:block;
 					position:absolute;
 					bottom:11px;
 					left:11px;
@@ -92,10 +87,14 @@ body {
 					width: -webkit-calc(100% - 22px);
 					/* Opera */
 					width: -o-calc(100% - 22px);
-					height:69px;
+					height:100px;
+					padding: 10px 0 0 0;
 					border-radius:1px;
 					background:rgba(39,33,35,0.9)
 				}
+					.overlay>h2, .overlay>p, .overlay>button {
+						margin: 7px 0 0 10px;
+					}
 	footer {
 		border-top: 5px solid #d0d0d0;
     box-shadow: 0 -1px 0 #bababa;
