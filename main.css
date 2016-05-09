@@ -6,7 +6,9 @@ body {
 	background-color: #F3F3F3;
 }
 	nav {
-		position:relative;
+		position:fixed;
+		width:101%;
+		z-index:1;
 		padding: 0 2%;
 		margin: 0 0 20px 0;
 		height:60px;
@@ -44,6 +46,10 @@ body {
 			.active {
 				color:#c7f9dc;
 			}
+	#container {
+		position:relative;
+		top:85px;
+	}
 			.image-wrapper {
 				position:relative;
 			}
@@ -91,9 +97,14 @@ body {
 		padding: 22px 0;
 		background-color:#272123;
 	}
-	footer>div>h3 {
+	.footer-headings>h3, p {
 			color: #fff;
-		}			
+		}
+	.footer-headings>h3 {
+		font-size:1.4em;
+		font-weight: 600;
+		color: #C64B52;
+	}		
 @media (max-width: 923px) {
 					h1 {
 						font-size: 2.0em;
