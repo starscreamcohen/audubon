@@ -88,9 +88,10 @@ body {
 					background:rgba(39,33,35,0.9)
 				}
 	footer {
+		padding: 22px 0;
 		background-color:#272123;
 	}
-	footer>div>p {
+	footer>div>h3 {
 			color: #fff;
 		}			
 @media (max-width: 923px) {
