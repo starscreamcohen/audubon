@@ -37,6 +37,7 @@ $(document).ready(function() {
 
 	$(document).on('mouseleave', '.overlay', removeProjectOverlay);
 
+
 });
 
 
