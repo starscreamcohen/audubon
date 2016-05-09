@@ -76,7 +76,7 @@ body {
 					height:inherit;
 				}
 				.overlay {
-					display:block;
+					display:none;
 					position:absolute;
 					bottom:11px;
 					left:11px;
@@ -93,6 +93,7 @@ body {
 					background:rgba(39,33,35,0.9)
 				}
 					.overlay>h2, .overlay>p, .overlay>a {
+						color:#E6E4CF;
 						margin: 7px 0 0 10px;
 					}
 					.overlay>a {

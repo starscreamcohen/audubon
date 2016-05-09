@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 	
 	
-	/*$(document).on('mouseenter', '.thumbnail', displaysProjectOverlay);
+	$(document).on('mouseenter', '.thumbnail', displaysProjectOverlay);
 	
 	$(document).on('mouseleave', '.thumbnail', hidesProjectOverlay);
 
