@@ -1,16 +1,95 @@
-		.thumbnail {
-			padding: 0;
-			overflow:hidden;
+html,body {
+    height:100%;
+}
+
+body {
+	background-color: #F3F3F3;
+}
+	nav {
+		position:relative;
+		padding: 0 2%;
+		margin: 0 0 20px 0;
+		height:60px;
+		background-color: #272123
+	}
+		nav>div {
+			position:absolute;
+			top:50%;
+			transform:translateY(-50%);
 		}
-		.thumbnail:hover {
+			
+				h1, h2, .nav-link {
+					display:inline;
+					color: #67585e;
+					font-size: 1.6em;
+				}
+				h1 {
+					font-size: 2.5em;
+				} 
+				h2 {
+					margin-left: 1%;
+				}
+			#nav-menu-right {
+				position:relative;
+				bottom: -13px;
+				text-align: right;
+			}
+				.nav-link {
+					margin: 0 3px;
+				}
+				.nav-link:hover {
+					text-decoration: none;
+				}
+				
+			.active {
+				color:#c7f9dc;
+			}
+			.image-wrapper {
+				position:relative;
+			}
+			.thumbnail {
+				padding: 10px;
+				background: #d0d0d0;
+			}
+			.thumbnail:hover {
 				-moz-box-shadow: 0 0 50px #ccc; 
 				-webkit-box-shadow: 0 0 50px #ccc; 
 				box-shadow: 0 0 50px #ccc;
+				background:rgba(39,33,35,0.9)
+				}
+			.hovered {
+				-moz-box-shadow: 0 0 50px #ccc; 
+				-webkit-box-shadow: 0 0 50px #ccc; 
+				box-shadow: 0 0 50px #ccc;
+				background:rgba(39,33,35,0.9);
 			}
-			.thumbnail>img {
-				width: 100%;
-				height:inherit;
-			}
-			.thumbnail>img:hover {
-				opacity: .9;
-			}
+				.thumbnail>img {
+					border-radius: 4px;
+					width: 100%;
+					height:inherit;
+				}
+				/*.thumbnail>img:hover {
+					opacity: .9;
+				}*/
+				.overlay {
+					display:none;
+					position:absolute;
+					bottom:11px;
+					left:11px;
+					width: calc(100% - 22px);
+					/* Firefox */
+					width: -moz-calc(100% - 22px);
+					/* WebKit */
+					width: -webkit-calc(100% - 22px);
+					/* Opera */
+					width: -o-calc(100% - 22px);
+					height:69px;
+					border-radius:1px;
+					background:rgba(39,33,35,0.9)
+				}
+@media (max-width: 923px) {
+				h1 {
+					font-size: 2.0em;
+				} 
+
+}
